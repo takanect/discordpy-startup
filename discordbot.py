@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def 酒は(ctx):
+async def '酒は'(ctx):
     await ctx.send('裏切らない')
 
 bot.run(token)
